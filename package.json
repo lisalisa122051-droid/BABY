@@ -1,0 +1,58 @@
+{
+  "name": "whatsapp-bot-md",
+  "version": "3.0.0",
+  "description": "WhatsApp Bot Multi-Device dengan 1000+ fitur",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pm2": "pm2 start index.js --name whatsapp-bot",
+    "pm2-stop": "pm2 stop whatsapp-bot",
+    "pm2-logs": "pm2 logs whatsapp-bot",
+    "update": "npm update",
+    "fix": "npm audit fix"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "multi-device",
+    "baileys",
+    "whatsapp-bot",
+    "elaina"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "github:rexxhayanasi/elaina-baileys",
+    "@hapi/boom": "^10.0.1",
+    "axios": "^1.6.0",
+    "pino": "^8.15.0",
+    "qrcode-terminal": "^0.12.0",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.43",
+    "fluent-ffmpeg": "^2.1.2",
+    "form-data": "^4.0.0",
+    "cheerio": "^1.0.0-rc.12",
+    "node-cron": "^3.0.3",
+    "chalk": "^4.1.2",
+    "figlet": "^1.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "@types/node": "^20.10.0"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=7.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/whatsapp-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/whatsapp-bot/issues"
+  },
+  "homepage": "https://github.com/yourusername/whatsapp-bot#readme"
+}
