@@ -1,0 +1,10 @@
+{
+  "628xxxxxxxxxx": {
+    "number": "628xxxxxxxxxx",
+    "premium": true,
+    "type": "premium",
+    "startDate": 1700000000000,
+    "endDate": 1702592000000,
+    "features": ["unlimited", "priority"]
+  }
+}
