@@ -1,0 +1,16 @@
+{
+  "628xxxxxxxxxx@g.us": {
+    "jid": "628xxxxxxxxxx@g.us",
+    "name": "Group Chat",
+    "owner": "628xxxxxxxxxx@s.whatsapp.net",
+    "admins": ["628xxxxxxxxxx@s.whatsapp.net"],
+    "members": ["628xxxxxxxxxx@s.whatsapp.net"],
+    "settings": {
+      "welcome": true,
+      "antiLink": false,
+      "nsfw": false,
+      "mute": false
+    },
+    "createdAt": 1700000000000
+  }
+}
