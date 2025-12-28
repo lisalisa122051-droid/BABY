@@ -1,0 +1,15 @@
+{
+  "628xxxxxxxxxx@s.whatsapp.net": {
+    "jid": "628xxxxxxxxxx@s.whatsapp.net",
+    "number": "628xxxxxxxxxx",
+    "name": "User",
+    "limit": 30,
+    "premium": false,
+    "role": "user",
+    "lastSeen": 1700000000000,
+    "totalCommand": 0,
+    "registeredAt": 1700000000000,
+    "banned": false,
+    "warning": 0
+  }
+}
